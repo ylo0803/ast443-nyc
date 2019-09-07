@@ -1,0 +1,17 @@
+# All exoplanet transitions from Sep 4 to Oct 7th, that are
+#     visible at SBU at night that are below 12 mag, transit
+#     greater than 40 deg in altitude, and have a duration
+#     under 4 hours.
+#
+# Note: UTC Time is currently -4 to local.
+#
+# Format is: Alt  Az  UTC-Time  Transit_Depth  Duration  Mag-V
+
+HD-209458-b.utc
+186.960  67.941  2019-09-18T03:20:33.792  0.0139  3.17  7.650
+
+WASP-69-b.utc
+207.782  40.231  2019-09-20T03:22:23.088  0.0179  2.47  9.8700
+
+WASP-80-b.utc
+199.384  45.272  2019-09-28T01:34:02.162  0.0241  1.98  11.881
