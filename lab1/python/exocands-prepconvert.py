@@ -1,9 +1,10 @@
 import numpy as np
 import os
 
-os.chdir('/home/nicholas/documents/schoolwork/ast443/lab1/temp/')
-data = np.genfromtxt('../FINAL_LIST.csv', delimiter=',', usecols=[0, 2, 4, 5, 6, 7, 8], skip_header=1)
-name = np.genfromtxt('../FINAL_LIST.csv', delimiter=',', usecols=[3], skip_header=1, dtype=str)
+os.mkdir('../temp')
+os.chdir('../temp/')
+data = np.genfromtxt('../topcat/FINAL_LIST.csv', delimiter=',', usecols=[0, 2, 4, 5, 6, 7, 8], skip_header=1)
+name = np.genfromtxt('../topcat/FINAL_LIST.csv', delimiter=',', usecols=[3], skip_header=1, dtype=str)
 depth, duration, p0, midtime, ra, dec, mag = data.T
 
 mjd = 2458730

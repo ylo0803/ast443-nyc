@@ -1,7 +1,7 @@
 import os
 
 
-os.chdir('/home/nicholas/documents/schoolwork/ast443/lab1/temp/')
+os.chdir('../temp')
 files = os.listdir('.')
 
 for file in files:
